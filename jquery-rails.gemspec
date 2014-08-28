@@ -18,6 +18,8 @@ Gem::Specification.new do |s|
   s.add_dependency "railties", ">= 3.0", "< 5.0"
   s.add_dependency "thor",     ">= 0.14", "< 2.0"
 
+  s.add_dependency "actionview", ">= 4.2.0.alpha"
+
   s.files        = `git ls-files`.split("\n")
   s.executables  = `git ls-files -- bin/*`.split("\n").map { |f| File.basename(f) }
   s.require_path = 'lib'
